@@ -1,0 +1,38 @@
+/* Global Styles */
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+nav {
+  background-color: rgb(23, 109, 185);
+  padding: 15px;
+  display: flex;
+  /* Center the logo and links vertically */
+}
+
+nav ul {
+  margin-left: auto;
+  display: flex;
+}
+
+nav li {
+  display:inline
+}
+
+nav li a {
+  display:inline;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/*first section*/
+.container{
+    justify-content: center;
+    align-items: center;
+  
+}
